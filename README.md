@@ -38,14 +38,14 @@ At a lower temperature setting, the probabilities of the outputs become more "pe
 
 This means that the model is more confident in its predictions, as the highest probability token is more likely to be chosen.
 
-Conversely, at a higher temperature setting, the probabilities of the outputs become more evenly distributed across all possible tokens. This results in a smoother curve of probabilities, where each token has a more equal chance of being selected. This increased randomness allows for more diverse and creative outputs from the model, as tokens with lower probabilities are more likely to be chosen.
+
 
 In summary, as the temperature changes in models like OpenAI, the probabilities of the outputs either concentrate around a peak (lower temperature) or spread out more evenly (higher temperature), affecting the randomness and diversity of the generated text.
 
 The following graph demonstrates visually the peaks and smooth curve. 
 A curve with a distinct peak, will consider fewer probabilities, making the response more deterministic. 
 
-A smoother curve, probabilities become more evenly distributed. Thereby presenting more options to consider. 
+A smoother curve, probabilities become more evenly distributed. Thereby presenting more options to consider. This increased randomness allows for more diverse and creative outputs from the model, as tokens with lower probabilities are more likely to be chosen.
 
 Green are probabilities considered, red are not considered.
 
