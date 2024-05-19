@@ -47,7 +47,7 @@ A curve with a distinct peak, will consider fewer probabilities, making the resp
 
 A smoother curve, probabilities become more evenly distributed. Thereby presenting more options to consider. This increased randomness allows for more diverse and creative outputs from the model, as tokens with lower probabilities are more likely to be chosen.
 
-Green are probabilities considered, red are not considered.
+Green are probabilities or tokens  considered, red are not considered.
 
 ![temperature_bar_chart.png](temperature_bar_chart.png)
 
@@ -57,7 +57,7 @@ This is the [openai quickstart code](https://platform.openai.com/docs/quickstart
 
 The loop will be iterated over 5 times with a different temperature setting: `0.0, 0.5, 1, 1.5, 2.0`
 
-
+_Each run of the program will produce something different as the question is vague and subjective._
 
 ```Python
 from openai import OpenAI
